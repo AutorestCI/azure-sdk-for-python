@@ -26,9 +26,9 @@ from .dsc_node import DscNode
 from .content_source import ContentSource
 from .dsc_configuration_parameter import DscConfigurationParameter
 from .dsc_configuration import DscConfiguration
+from .resource import Resource
 from .sku import Sku
 from .automation_account import AutomationAccount
-from .resource import Resource
 from .operation_display import OperationDisplay
 from .operation import Operation
 from .automation_account_create_or_update_parameters import AutomationAccountCreateOrUpdateParameters
@@ -185,9 +185,9 @@ __all__ = [
     'ContentSource',
     'DscConfigurationParameter',
     'DscConfiguration',
+    'Resource',
     'Sku',
     'AutomationAccount',
-    'Resource',
     'OperationDisplay',
     'Operation',
     'AutomationAccountCreateOrUpdateParameters',
